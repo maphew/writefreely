@@ -1,8 +1,6 @@
 module github.com/writefreely/writefreely
 
 require (
-	github.com/PuerkitoBio/goquery v1.8.1 // indirect
-	github.com/aymerick/douceur v0.2.0
 	github.com/clbanning/mxj v1.8.4 // indirect
 	github.com/dustin/go-humanize v1.0.1
 	github.com/facebookgo/ensure v0.0.0-20200202191622-63f1cf65ac4c // indirect
@@ -54,7 +52,14 @@ require (
 )
 
 require (
+	github.com/aymerick/douceur v0.2.0
+	github.com/yuin/goldmark v1.5.6
+	go.abhg.dev/goldmark/hashtag v0.3.1
+)
+
+require (
 	code.as/core/socks v1.0.0 // indirect
+	github.com/PuerkitoBio/goquery v1.8.1 // indirect
 	github.com/andybalholm/cascadia v1.3.2 // indirect
 	github.com/beevik/etree v1.1.0 // indirect
 	github.com/captncraig/cors v0.0.0-20190703115713-e80254a89df1 // indirect
@@ -63,6 +68,7 @@ require (
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/dchest/uniuri v0.0.0-20200228104902-7aecb25e1fe5 // indirect
 	github.com/fatih/structs v1.1.0 // indirect
+	github.com/forPelevin/gomoji v1.1.3 // indirect
 	github.com/go-fed/httpsig v0.1.1-0.20200204213531-0ef28562fabe // indirect
 	github.com/gofrs/uuid v3.3.0+incompatible // indirect
 	github.com/gologme/log v1.2.0 // indirect
@@ -76,6 +82,7 @@ require (
 	github.com/petermattis/goid v0.0.0-20180202154549-b0b1615b78e5 // indirect
 	github.com/pkg/errors v0.9.1 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
+	github.com/rivo/uniseg v0.2.0 // indirect
 	github.com/rogpeppe/go-internal v1.9.0 // indirect
 	github.com/russross/blackfriday/v2 v2.1.0 // indirect
 	github.com/sasha-s/go-deadlock v0.3.1 // indirect
@@ -89,4 +96,6 @@ require (
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
 
-go 1.19
+go 1.21
+
+toolchain go1.22.0
